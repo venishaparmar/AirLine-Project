@@ -1,0 +1,114 @@
+/* https://www.youtube.com/watch?v=jLyqrjL3wUo */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 10px;
+    font-family: "Robot", sans-serif;
+}
+
+nav {
+    
+    line-height: 6rem;
+    margin-left: 25%;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.brand {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgb(13, 13, 75);
+    padding: 0 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    color: rgb(13, 13, 75);
+    margin-right: 2rem;
+    padding: 0 1rem;
+    display: block;
+    position: relative;
+    transform-style: preserve-3d;
+    transform-origin: top;
+    transition: transform 650ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
+}
+
+.nav-link:hover {
+    transform: rotateX(90deg);
+}
+
+.nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+
+.nav-link::after {
+    background-color: rgb(13, 13, 75);
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    padding: inherit;
+    color: #fff;
+    transform: rotateX(-90deg);
+    transform-origin: top;
+}
+
+.nav-item:nth-child(odd) {
+    animation: up 1s forwards;
+
+}
+
+.nav-item:nth-child(even) {
+    animation: down 1s forwards;
+
+}
+
+@keyframes up {
+    form {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes down {
+    form {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.div-nav{
+
+    display: flex;
+}
+
+.nav-logo{
+    width: 120px;
+    height: 50px;
+    margin: 7px;
+}
