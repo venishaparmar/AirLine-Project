@@ -1,7 +1,7 @@
 <?php
     $servername = "localhost:4806";
     $username = "root";
-    $password = "Jeel@142";
+    $password = "";
     $dbname="airline";
 
     try{
