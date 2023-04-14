@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+
+<body>
+        <header>
+            <nav>
+                <div class="logo"><img src="../images/logo2.png" alt=""></div>
+                <ul>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-text="Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-text="Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-text="Contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-text="Login/SignUp">Login/SignUp</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="menu_bar"></nav>
+        </header>
+    <div class="homepage">
+        <div class="slidebar"></div>
+                <div class="form-bar">
+                    <div class="form-nav">
+                        <div class="form-nav-item1"> Search Flight </div>
+                        <div class="form-nav-item2"> Booking </div>
+                        <div class="form-nav-item3"> Check In </div>
+                        <div class="form-nav-item4"> Flight Status </div>
+                    </div>
+                    <div class="form-from-input"> <input type="text" placeholder="From"> </div>
+                    <div class="arrow-icon"> <i class="fa fa-arrow-right fa-3x" aria-hidden="true"></i></div>
+                    <div class="form-to-input"> <input type="text" placeholder="To"></div>
+
+                    <div class="form-departing">
+                        <input placeholder="Departing Date" type="text" onfocus="(this.type = 'date')">
+                    </div>
+
+                    <div class="form-dropdown">
+                        <div class="form-passenger">Passenger:
+                            <div class="custom-select" >
+                                <select class="passenger">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="form-submit">
+                        <button class="search-button">Search</button>
+                    </div> 
+                </div>
+    </div>
+    <div class="homepage-cards">
+        <!-- card slider starts  -->
+          
+        <!-- card slider ends  -->   
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/slider-script.js"> </script>
+</body>
+
+</html>

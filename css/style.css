@@ -1,0 +1,414 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-color: #f0f0f0;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+
+    font-weight: bold;
+    background-color: #fff;
+    box-shadow: 0 .8rem 1rem rgba(0, 0, 0, .6);
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 4rem;
+}
+
+
+.nav-link {
+    font-size: 2rem;
+    color: rgb(32, 5, 79);
+    margin-right: .3;
+    padding: 0 1rem;
+    display: block;
+    position: relative;
+    transform-style: preserve-3d;
+    transform-origin: top;
+    text-transform: uppercase;
+    line-height: 8rem;
+    transition: transform 650ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
+}
+
+.nav-link:hover {
+    transform: rotateX(90deg);
+}
+
+.nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+
+.nav-link::after {
+    background-color: rgb(32, 5, 79);
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    padding: inherit;
+    color: #fff;
+    transform: rotateX(-90deg);
+    transform-origin: top;
+    border-radius: 5% 25%;
+}
+
+.nav-item:nth-child(odd) {
+    animation: up 1s forwards;
+
+}
+
+.nav-item:nth-child(even) {
+    animation: down 1s forwards;
+
+}
+
+.logo img {
+    width: 180px;
+    height: 75px;
+}
+
+.logo {
+    margin-left: 6rem;
+}
+
+@keyframes up {
+    form {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes down {
+    form {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.menu_bar {
+    background: transparent linear-gradient(90deg, rgb(32, 5, 79) 0%, #340f79 50%, rgb(81, 14, 197) 100%) 0% 0% no-repeat padding-box;
+    border-bottom: 0;
+    max-height: 30px;
+}
+
+.slidebar {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/slidebar-1.jpg);
+    background-size: 100% 600px;
+    z-index: 1;
+}
+
+/* form css started */
+.form-bar {
+    position: absolute;
+    width: 71.2%;
+    height: 300px;
+    margin-left: 14.5%;
+    margin-right: 20.5%;
+    border-radius: 30px;
+    background-color: white;
+    z-index: 3;
+    margin-top: 40%;
+    box-shadow: 0 .8rem 3rem rgba(0, 0, 0, .4);
+}
+
+.homepage {
+    position: initial;
+}
+
+.form-nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(32, 5, 79);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+
+.form-nav-item1 {
+    width: 25%;
+    height: 100px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(32, 5, 79);
+    border-radius: 30px 0 0 0;
+    float: left;
+    padding-top: 35px;
+    border-right: solid 0.5px white;
+
+}
+
+.form-nav-item2 {
+    width: 25%;
+    height: 100px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(32, 5, 79);
+    float: left;
+    padding: 35px;
+    border-right: solid 0.5px white;
+
+}
+
+.form-nav-item3 {
+    width: 25%;
+    height: 100px;
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(32, 5, 79);
+    float: left;
+    padding: 35px;
+    border-right: solid 0.5px white;
+
+}
+
+.form-nav-item4 {
+    width: 25%;
+    height: 100px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(32, 5, 79);
+    float: left;
+    padding: 35px;
+    border-radius: 0 30px 0 0;
+}
+
+.form-from-input input {
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 43%;
+    height: 40px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    float: left;
+}
+
+.arrow-icon {
+    margin-top: 4.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 1%;
+    height: 10px;
+    float: left;
+}
+
+.form-to-input input {
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 43%;
+    height: 40px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    float: right;
+}
+
+::placeholder {
+    font-size: 2rem;
+    padding-top: 100%;
+    padding-left: 2%;
+}
+
+.form-departing input {
+    width: 30%;
+    height: 40px;
+    box-sizing: content-box;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    float: left;
+}
+
+.form-passenger {
+    width: 30%;
+    display: flex;
+    margin-top: 13.5%;
+    margin-right: 2%;
+    font-size: 2.3rem;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    float: inline-end;
+}
+
+.form-passenger .custom-select .passenger {
+    display: block;
+    align-content: center;
+    box-sizing: border-box;
+    border-radius: 1px;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    float: left;
+    margin-left: 15%;
+    margin-right: 2%;
+
+}
+
+/* form css ended */
+
+/* css for slider started */
+
+/* css for slider ended */
+.search-button {
+    width: 15%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(32, 5, 79);
+    margin-top: -45px;
+    margin-left: 30%;
+    color: white;
+    font-size: 2.3rem;
+    float: left;
+    cursor: pointer;
+}
+
+
+.search_menu_bar {
+    background: transparent linear-gradient(90deg, rgb(32, 5, 79) 0%, #340f79 50%, rgb(81, 14, 197) 100%) 0% 0% no-repeat padding-box;
+    border-bottom: 0;
+    height: 90px;
+}
+
+.search-fromTo {
+    width: auto;
+    height: 80px;
+    margin: 5px;
+    margin-left: 10%;
+    padding: 0 1.5rem;
+    border-right: solid #fff;
+    color: #fff;
+    font-size: 3rem;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.search-depDate {
+    width: auto;
+    height: 80px;
+    margin: 5px;
+    padding: 0 1.5rem;
+    border-right: solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.search-lable-depart {
+    width: auto;
+    margin-top: 7px;
+    height: 30px;
+
+}
+
+.search-lable-date {
+    width: auto;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.search-div-passanger {
+    width: auto;
+    height: 80px;
+    margin: 5px;
+    padding: 0 1.5rem;
+    border-right: solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.search-lable-passanger {
+    width: auto;
+    margin-top: 7px;
+    height: 30px;
+}
+
+.search-lable-num-pass {
+    width: auto;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.search-div-yourbook {
+    width: auto;
+    height: 80px;
+    padding: 0 1.5rem;
+    color: #fff;
+    background-color: transparent;
+    font-size: 1.4rem;
+    margin-left: 40%;
+}
+
+.search-date-day {
+    width: 100%;
+    padding-top: 23px;
+    height: 50px;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.search-flight-list {
+    width: 90%;
+    height: 190px;
+    margin-left: 5%;
+    background-color: #fff;
+    margin-top: 2%;
+    border-radius: 20px;
+    box-shadow: 0 .8rem 3rem rgba(0, 0, 0, .2);
+}
