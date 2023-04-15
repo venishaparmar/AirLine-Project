@@ -8,20 +8,25 @@
 }
 
 body {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
     background-image: url('../images/slidebar-1.jpg');
     background-size: cover;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 
 .wrapper {
     width: 768px;
     background-color: transparent;
     margin: 10px;
+    padding-left: 0px;
+    position: relative;
+}
+
+.wrap_flict {
+    width: 100%;
+    background-color: transparent;
+    margin: 0%;
     padding-left: 0px;
 }
 
