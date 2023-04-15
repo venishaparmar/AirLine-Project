@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     /* display: flex; */
     justify-content: center;
-    padding-left: 10%;
+    padding-left: 37%;
     margin-top: 2%;
     align-items: center;
     min-height: 100vh;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: url("../images/slidebar-1.jpg") no-repeat center / cover;
+    overflow: hidden;
 }
 
 .main {
@@ -16,7 +19,7 @@ body {
     height: 700px;
     background: red;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, .4  );
+    background-color: rgba(0, 0, 0, .4);
     border-radius: 10px;
     box-shadow: 0 .8rem 1rem rgba(0, 0, 0, .6);
 }
@@ -79,7 +82,7 @@ button:hover {
     border: 2px solid rgb(32, 5, 79);
 }
 
-.login button{
+.login button {
     width: 60%;
     height: 40px;
     margin: 10px auto;
@@ -96,21 +99,23 @@ button:hover {
     transition: .2s ease-in;
     cursor: pointer;
 }
-.login button:hover{
-    background:rgb(81, 14, 197);
+
+.login button:hover {
+    background: rgb(81, 14, 197);
     color: #fff;
     border: 2px solid rgb(81, 14, 197);
 }
+
 .login {
     height: 700px;
-    background:rgb(32, 5, 79);
+    background: rgb(32, 5, 79);
     border-radius: 10px;
     transform: translateY(-180px);
     transition: .8s ease-in-out;
 }
 
 .login label {
-    color:  #fff;
+    color: #fff;
     transform: scale(.6);
 }
 
