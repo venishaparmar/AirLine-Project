@@ -16,19 +16,19 @@
 <body>
     <header>
         <nav>
-            <div class="logo"><img src="../images/logo2.png" alt=""></div>
+            <div class="logo"><a href="../html/home.html"><img src="../images/logo2.png" alt=""> </a></div>
             <ul>
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-text="Home">Home</a>
+                    <a href="../html/home.html" class="nav-link" data-text="Home">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link" data-text="Services">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-text="Contact">Contact</a>
+                    <a href="../html/contact_us.html" class="nav-link" data-text="Contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-text="Login/SignUp">Login/SignUp</a>
+                    <a href="../html/login_form.html" class="nav-link" data-text="Login/SignUp">Login/SignUp</a>
                 </li>
             </ul>
         </nav>
@@ -39,13 +39,17 @@
         <div class="form-bar">
             <div class="form-nav">
                 <div class="form-nav-item1"> <i class="fa-solid fa-plane-up"></i> Search Flight </div>
-                <div class="form-nav-item2"><i class="fa-solid fa-tag fa-rotate-90"></i> Manage Booking </div>
+                <div class="form-nav-item2"><i class="fa-solid fa-tag fa-rotate-90"></i> Booking </div>
                 <div class="form-nav-item3"><i class="fa-regular fa-square-check"></i> Check In </div>
                 <div class="form-nav-item4"><i class="fa-regular fa-clock"></i> Flight Status </div>
             </div>
-            <div class="form-from-input"> <input type="text" placeholder="From"> </div>
+            <div class="form-from-input">
+                <input type="text" name="from" id="from" placeholder="From">
+            </div>
             <div class="arrow-icon"> <i class="fa fa-arrow-right fa-3x" aria-hidden="true"></i></div>
-            <div class="form-to-input"> <input type="text" placeholder="To"></div>
+            <div class="form-to-input">
+                <input type="text" name="to" id="to" placeholder="To">
+            </div>
 
             <div class="form-departing">
                 <input placeholder="Departing Date" type="text" onfocus="(this.type = 'date')">
