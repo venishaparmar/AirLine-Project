@@ -257,6 +257,7 @@ nav ul {
     margin-top: 4%;
     margin-left: 2%;
     margin-right: 2%;
+    font-size: large;
     font-family: 'Poppins', sans-serif;
     width: 43%;
     height: 40px;
@@ -269,20 +270,20 @@ nav ul {
 ::placeholder {
     font-size: 2rem;
     padding-top: 100%;
-    padding-left: 2%;
+    padding-left: 0%;
 }
 
 .form-departing input {
     width: 43%;
     height: 40px;
-    font-size: large;
+    font-size: 20px;
     box-sizing: content-box;
     font-family: 'Poppins', sans-serif;
     margin-top: 3%;
     margin-left: 2%;
     margin-right: 2%;
     border-radius: 10px;
-    text-indent: 15px;
+    text-indent: 10px;
     float: left;
 }
 
