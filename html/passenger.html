@@ -10,44 +10,60 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/passenger.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/search.css">
+
 </head>
 
 <body>
     <div class="container">
         <header>
             <nav>
-
-                <div class="logo"><img src="../images/logo2.png" alt=""></div>
-
+                <div class="logo"><a href="../html/home.html"><img src="../images/logo2.png" alt=""> </a></div>
+                <ul>
+                    <li class="nav-item">
+                        <a href="../html/home.html" class="nav-link" data-text="Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-text="Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../html/contact_us.html" class="nav-link" data-text="Contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../html/login_form.html" class="nav-link" data-text="Login/SignUp">Login/SignUp</a>
+                    </li>
+                </ul>
             </nav>
-            <nav class="search_menu_bar">
-                <div class="search-fromTo">
-                    Delhi - Mumbai
+            <nav class="menu_bar"></nav>
+        </header>
+        <nav class="search_menu_bar">
+            <div class="search-fromTo">
+                Delhi - Mumbai
+            </div>
+            <div class="search-depDate">
+                <div class="search-lable-depart">
+                    Depart
                 </div>
-                <div class="search-depDate">
-                    <div class="search-lable-depart">
-                        Depart
-                    </div>
-                    <div class="search-lable-date">
-                        Wed, 31 May
-                    </div>
+                <div class="search-lable-date">
+                    Wed, 31 May
                 </div>
-                <div class="search-div-passanger">
-                    <div class="search-lable-passanger">
-                        Passangers
-                    </div>
-                    <div class="search-lable-num-pass">
-                        2
-                    </div>
+            </div>
+            <div class="search-div-passanger">
+                <div class="search-lable-passanger">
+                    Passangers
                 </div>
-                <div class="search-div-yourbook">
-                    <div class="search-icon-yourbook">
-                        <i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
-                    </div>
-                    <p id="yourBooking">Your Booking
-                    </p>
+                <div class="search-lable-num-pass">
+                    2
                 </div>
-            </nav>
+            </div>
+            <div class="search-div-yourbook">
+                <div class="search-icon-yourbook">
+                    <i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+                </div>
+                <p id="yourBooking">Your Booking
+                </p>
+            </div>
+        </nav>
         </header>
 
 
