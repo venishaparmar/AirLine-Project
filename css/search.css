@@ -1,0 +1,1310 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-color: #e9e9e9;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search_menu_bar {
+    background: transparent linear-gradient(90deg, rgb(32, 5, 79) 0%, #340f79 50%, rgb(81, 14, 197) 100%) 0% 0% no-repeat padding-box;
+    border-bottom: 0;
+    height: 90px;
+}
+
+.search-fromTo {
+    width: auto;
+    height: 80px;
+    margin: 5px;
+    margin-left: 10%;
+    padding: 0 1.5rem;
+    border-right: solid #fff;
+    color: #fff;
+    font-size: 3rem;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.search-depDate {
+    width: auto;
+    height: 80px;
+    margin: 5px;
+    padding: 0 1.5rem;
+    border-right: solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.search-lable-depart {
+    width: auto;
+    margin-top: 7px;
+    height: 30px;
+
+}
+
+.search-lable-date {
+    width: auto;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.search-div-passanger {
+    width: auto;
+    height: 80px;
+    margin: 5px;
+    padding: 0 1.5rem;
+    border-right: solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.search-lable-passanger {
+    width: auto;
+    margin-top: 7px;
+    height: 30px;
+}
+
+.search-lable-num-pass {
+    width: auto;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.search-div-yourbook {
+    width: auto;
+    height: 80px;
+    padding: 0 1.5rem;
+    color: #fff;
+    background-color: transparent;
+    font-size: 1.4rem;
+    margin-left: auto;
+    margin-right: 3rem;
+    text-align: butt;
+}
+
+.search-date-day {
+    width: 100%;
+    padding-top: 23px;
+    height: 50px;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.search-flight-list {
+    width: 90%;
+    height: 190px;
+    margin-left: 5%;
+    background-color: #fff;
+    margin-top: 2%;
+    border-radius: 20px;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, .1);
+}
+
+.search-class {
+    margin-left: auto;
+    width: 30%;
+    height: 190px;
+    cursor: pointer;
+}
+
+.search-economy {
+    width: 49.6%;
+    height: 190px;
+    background-color: rgb(81, 14, 197);
+    float: left;
+}
+
+.search-business {
+    width: 49.6%;
+    height: 190px;
+    margin-left: auto;
+    background-color: rgb(32, 5, 79);
+    border-radius: 0 20px 20px 0;
+    float: right;
+}
+
+.search-list-detail {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+
+.search-fare-details-continue-dis {
+    display: block;
+}
+
+.search-fare-bis-1 {
+    width: 16.6%;
+    height: 740px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 32%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    float: left;
+}
+
+
+.search-fare-select-color {
+    background-color: rgb(81, 14, 197);
+
+}
+
+.search-fare-head-lable {
+
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+}
+
+.search-fare-head-normal {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(32, 5, 79);
+}
+
+.search-fare-head-bold {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: rgb(32, 5, 79);
+}
+
+.search-fare-details {
+    width: 100%;
+    height: 84.14%;
+    padding: 10%;
+
+}
+
+.search-fare-details-bold {
+    font-size: 1.6rem;
+    color: rgb(32, 5, 79);
+    font-weight: 600;
+    padding-left: 6%;
+
+}
+
+.search-fare-details-normal {
+    font-size: 1.5rem;
+    color: rgb(32, 5, 79);
+    font-weight: 400;
+    padding-left: 17%;
+    padding-top: 1%;
+}
+
+.search-economy-detail-height {
+    height: 1050px;
+}
+
+.search-buisness-detail-height {
+    height: 930px;
+}
+
+.search-fare-details-div {
+    width: 100%;
+    height: 55px;
+    margin-top: 67%;
+    display: none;
+}
+
+.search-fare-detailsbis-div {
+    width: 100%;
+    height: 55px;
+    margin-top: 58%;
+    display: none;
+}
+
+.search-fare-details-continue {
+    width: 10%;
+    height: 45px;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: rgb(32, 5, 79);
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+}
+
+.search-fare-bis-2 {
+    width: 16.6%;
+    height: 740px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    float: left;
+}
+
+.search-fare-bis-1:hover {
+    box-shadow: 0 0 1.5rem rgb(81, 14, 197);
+    border: 3px solid rgb(81, 14, 197);
+}
+
+.search-fare-bis-2:hover {
+    box-shadow: 0 0 1.5rem rgb(81, 14, 197);
+    border: 3px solid rgb(81, 14, 197);
+}
+
+
+.search-list-time {
+    width: 96%;
+    margin: 1.8%;
+    height: 45%;
+
+    border-bottom: solid 2px black;
+    background-color: #fff;
+}
+
+.search-list-start-time {
+    width: 20%;
+    height: 90%;
+    float: left;
+}
+
+.search-list-end-time {
+    width: 25%;
+    height: 90%;
+    float: right;
+}
+
+.search-lable-start-time {
+    width: auto;
+    height: 65%;
+    color: #000000;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.search-lable-start-city {
+    width: auto;
+    height: 30%;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.search-lable-end-time {
+    width: auto;
+    height: 65%;
+    color: #000000;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: right;
+}
+
+.search-lable-end-city {
+    width: auto;
+    height: 30%;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: right;
+}
+
+.bill-duration {
+    width: 25%;
+    height: 10%;
+    margin: 1%;
+    margin-top: 2%;
+    font-size: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    float: right;
+}
+
+.search-duration {
+    width: 65%;
+    height: 10%;
+    margin: 1.8%;
+    font-size: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.bill-airline {
+    width: 25%;
+    height: 10%;
+    margin: 1%;
+    font-size: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    float: right;
+}
+
+.search-airline {
+    width: 65%;
+    height: 10%;
+    margin-left: 1.8%;
+    margin-top: 2px;
+    font-size: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.search-class-label {
+    width: 90%;
+    height: 100%;
+    margin: 5%;
+
+}
+
+.search-bold {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.search-normal {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.search-arrow-down {
+    width: 20%;
+    height: 0.1%;
+    justify-items: center;
+    margin: auto;
+
+}
+
+.search-economy-detail {
+    width: 90%;
+    height: 1000px;
+    margin-left: 5%;
+    background-color: #e9e9e9;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 -2rem 0 #fff, 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    /* display: none; */
+}
+
+.search-buisness-detail {
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    background-color: #d08383;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 -2rem 0 #fff, 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    display: none;
+}
+
+.search-icon-yourbook {
+    width: 20%;
+    height: 0.1%;
+    justify-items: center;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+#yourBooking {
+    margin-top: 4rem;
+}
+
+.search-details-main-lable {
+    width: 100%;
+    height: 60px;
+    padding-top: 3rem;
+    font-size: 2.5rem;
+    /* font-weight: 200; */
+    text-align: center;
+}
+
+.search-fare-1 {
+    width: 16.6%;
+    height: 820px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 12.5%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    float: left;
+}
+
+.search-fare-1:hover {
+    box-shadow: 0 0 1.5rem rgb(81, 14, 197);
+    border: 3px solid rgb(81, 14, 197);
+}
+
+.search-fare-2 {
+    width: 16.6%;
+    height: 820px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    float: left;
+}
+
+.search-fare-2:hover {
+    box-shadow: 0 0 1.5rem rgb(81, 14, 197);
+    border: 3px solid rgb(81, 14, 197);
+}
+
+.search-fare-3 {
+    width: 16.6%;
+    height: 820px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    float: left;
+}
+
+.search-fare-3:hover {
+    box-shadow: 0 0 1.5rem rgb(81, 14, 197);
+    border: 3px solid rgb(81, 14, 197);
+}
+
+.search-fare-4 {
+    width: 16.6%;
+    height: 820px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 12%;
+    margin-left: 2%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .2);
+
+    float: left;
+}
+
+.search-fare-4:hover {
+    box-shadow: 0 0 1.5rem rgb(81, 14, 197);
+    border: 3px solid rgb(81, 14, 197);
+}
+
+.search-fare-1-head {
+    width: 100%;
+    height: 130px;
+    padding-top: 10%;
+    background-color: #e9e9e9;
+    border-radius: 28px 28px 25% 25%;
+}
+
+.search-fare-2-head {
+    width: 100%;
+    height: 130px;
+    padding-top: 10%;
+    background-color: #e9e9e9;
+    border-radius: 28px 28px 25% 25%;
+}
+
+.search-fare-3-head {
+    width: 100%;
+    height: 130px;
+    padding-top: 10%;
+    background-color: #e9e9e9;
+    border-radius: 28px 28px 25% 25%;
+}
+
+.search-fare-4-head {
+    width: 100%;
+    height: 130px;
+    padding-top: 10%;
+    background-color: #e9e9e9;
+    border-radius: 28px 28px 25% 25%;
+}
+
+.search-bis-fare-1-head {
+    width: 100%;
+    height: 130px;
+    padding-top: 10%;
+    background-color: #e9e9e9;
+    border-radius: 28px 28px 25% 25%;
+}
+
+.search-bis-fare-2-head {
+    width: 100%;
+    height: 130px;
+    padding-top: 10%;
+    background-color: #e9e9e9;
+    border-radius: 28px 28px 25% 25%;
+}
+
+.search-fare-select-color {
+    background-color: rgb(81, 14, 197);
+    color: #fff;
+}
+
+.search-fare-head-lable {
+
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+}
+
+.search-fare-head-normal {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.search-fare-head-bold {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+
+.bill-main-lable {
+    width: 100%;
+    margin-top: 23px;
+    height: 50px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 750;
+}
+
+.bill-details-div {
+    width: 90%;
+    height: 190px;
+    margin-left: 5%;
+    background-color: #fff;
+    margin-top: 3%;
+    border-radius: 20px;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, .1);
+}
+
+.bill-from-to {
+    width: 95%;
+    height: 40%;
+    margin-left: 2.5%;
+    border-bottom: solid black;
+    padding-top: 15px;
+}
+
+.bill-detail-div-bold {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.bill-detail-div-normal {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.bill-end-time {
+    width: 25%;
+    height: 90%;
+    float: right;
+}
+
+.bill-time {
+    width: 65%;
+    margin: 1.8%;
+    height: 45%;
+    padding-left: 1%;
+    float: left;
+}
+
+.bill-final {
+    width: 90%;
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: right;
+}
+
+.bill-text-bold {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.bill-continue a {
+    margin-left: auto;
+    height: 40%;
+    width: 20%;
+    background-color: #340f79;
+    margin-top: 2%;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+
+nav {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+
+    font-weight: bold;
+    background-color: #fff;
+    box-shadow: 0 .8rem 1rem rgba(0, 0, 0, .6);
+    position: relative;
+}
+
+.logo img {
+    width: 180px;
+    height: 75px;
+}
+
+.logo {
+    margin-left: 6rem;
+}
+
+
+.search_menu_bar {
+    background: transparent linear-gradient(90deg, rgb(32, 5, 79) 0%, #340f79 50%, rgb(81, 14, 197) 100%) 0% 0% no-repeat padding-box;
+    border-bottom: 0;
+    height: 90px;
+}
+
+.search-fromTo {
+    width: auto;
+    height: 80px;
+    margin: 5px;
+    margin-left: 10%;
+    padding: 0 1.5rem;
+    border-right: solid #fff;
+    color: #fff;
+    font-size: 3rem;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.search-depDate {
+    width: auto;
+    height: 80px;
+    margin: 5px;
+    padding: 0 1.5rem;
+    border-right: solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.search-lable-depart {
+    width: auto;
+    margin-top: 7px;
+    height: 30px;
+
+}
+
+.search-lable-date {
+    width: auto;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.search-div-passanger {
+    width: auto;
+    height: 80px;
+    margin: 5px;
+    padding: 0 1.5rem;
+    border-right: solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.search-lable-passanger {
+    width: auto;
+    margin-top: 7px;
+    height: 30px;
+}
+
+.search-lable-num-pass {
+    width: auto;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.search-div-yourbook {
+    width: auto;
+    height: 80px;
+    padding: 0 1.5rem;
+    color: #fff;
+    background-color: transparent;
+    font-size: 1.4rem;
+    margin-left: auto;
+    margin-right: 3rem;
+    text-align: butt;
+}
+
+.search-flight-list-1 {
+    width: 90%;
+    height: 190px;
+    margin-left: 5%;
+    background-color: #fff;
+    margin-top: 2%;
+    border-radius: 20px;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, .1);
+}
+
+.search-flight-list-2 {
+    width: 90%;
+    height: 190px;
+    margin-left: 5%;
+    background-color: #fff;
+    margin-top: 2%;
+    border-radius: 20px;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, .1);
+}
+
+.search-class {
+    margin-left: auto;
+    width: 30%;
+    height: 190px;
+    cursor: pointer;
+}
+
+.search-economy {
+    width: 49.6%;
+    height: 190px;
+    background-color: rgb(81, 14, 197);
+    float: left;
+}
+
+.search-business {
+    width: 49.6%;
+    height: 190px;
+    margin-left: auto;
+    background-color: rgb(32, 5, 79);
+    border-radius: 0 20px 20px 0;
+    float: right;
+}
+
+.search-list-detail {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.search-list-time {
+    width: 96%;
+    margin: 1.8%;
+    height: 45%;
+
+    border-bottom: solid 2px black;
+    background-color: #fff;
+}
+
+.search-list-start-time {
+    width: 20%;
+    height: 90%;
+    float: left;
+}
+
+.search-list-end-time {
+    width: 25%;
+    height: 90%;
+    float: right;
+}
+
+.search-lable-start-time {
+    width: auto;
+    height: 65%;
+    color: #000000;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.search-lable-start-city {
+    width: auto;
+    height: 30%;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.search-lable-end-time {
+    width: auto;
+    height: 65%;
+    color: #000000;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: right;
+}
+
+.search-lable-end-city {
+    width: auto;
+    height: 30%;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: right;
+}
+
+.search-duration {
+    width: 65%;
+    height: 10%;
+    margin: 1.8%;
+    font-size: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.bill-duration {
+    width: 25%;
+    height: 10%;
+    margin: 1%;
+    margin-top: 2%;
+    font-size: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    float: right;
+}
+
+.search-airline {
+    width: 65%;
+    height: 10%;
+    margin-left: 1.8%;
+    margin-top: 2px;
+    font-size: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+
+}
+
+.bill-airline {
+    width: 25%;
+    height: 10%;
+    margin: 1%;
+    font-size: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    float: right;
+}
+
+.search-class-label {
+    width: 90%;
+    height: 100%;
+    margin: 5%;
+
+}
+
+.search-bold {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.search-normal {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.search-arrow-down {
+    width: 20%;
+    height: 0.1%;
+    justify-items: center;
+    margin: auto;
+
+}
+
+.search-economy-detail {
+    width: 90%;
+    height: 1000px;
+    margin-left: 5%;
+    background-color: #e9e9e9;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 -2rem 0 #fff, 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    display: none;
+}
+
+.search-buisness-detail {
+    width: 90%;
+    height: 860px;
+    margin-left: 5%;
+    background-color: #e9e9e9;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 -2rem 0 #fff, 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    display: none;
+}
+
+.search-icon-yourbook {
+    width: 20%;
+    height: 0.1%;
+    justify-items: center;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+#yourBooking {
+    margin-top: 4rem;
+}
+
+.search-details-main-lable {
+    width: 100%;
+    height: 60px;
+    padding-top: 3rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(32, 5, 79);
+}
+
+.search-fare-1 {
+    width: 16.6%;
+    height: 860px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 12.5%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    float: left;
+}
+
+.search-fare-1:hover {
+    box-shadow: 0 0 1.5rem rgb(81, 14, 197);
+    border: 3px solid rgb(81, 14, 197);
+}
+
+.search-fare-2 {
+    width: 16.6%;
+    height: 860px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    float: left;
+}
+
+.search-fare-2:hover {
+    box-shadow: 0 0 1.5rem rgb(81, 14, 197);
+    border: 3px solid rgb(81, 14, 197);
+}
+
+.search-fare-3 {
+    width: 16.6%;
+    height: 860px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    float: left;
+}
+
+.search-fare-3:hover {
+    box-shadow: 0 0 1.5rem rgb(81, 14, 197);
+    border: 3px solid rgb(81, 14, 197);
+}
+
+.search-fare-4 {
+    width: 16.6%;
+    height: 860px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 12%;
+    margin-left: 2%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .2);
+
+    float: left;
+}
+
+.search-fare-4:hover {
+    box-shadow: 0 0 1.5rem rgb(81, 14, 197);
+    border: 3px solid rgb(81, 14, 197);
+}
+
+.search-fare-1-head {
+    width: 100%;
+    height: 130px;
+    padding-top: 10%;
+    background-color: #e9e9e9;
+    border-radius: 28px 28px 25% 25%;
+}
+
+.search-bis-fare-1-head {
+    width: 100%;
+    height: 130px;
+    padding-top: 10%;
+    background-color: #e9e9e9;
+    border-radius: 28px 28px 25% 25%;
+}
+
+.search-bis-fare-2-head {
+    width: 100%;
+    height: 130px;
+    padding-top: 10%;
+    background-color: #e9e9e9;
+    border-radius: 28px 28px 25% 25%;
+}
+
+.search-fare-2-head {
+    width: 100%;
+    height: 130px;
+    padding-top: 10%;
+    background-color: #e9e9e9;
+    border-radius: 28px 28px 25% 25%;
+}
+
+.search-fare-3-head {
+    width: 100%;
+    height: 130px;
+    padding-top: 10%;
+    background-color: #e9e9e9;
+    border-radius: 28px 28px 25% 25%;
+}
+
+.search-fare-4-head {
+    width: 100%;
+    height: 130px;
+    padding-top: 10%;
+    background-color: #e9e9e9;
+    border-radius: 28px 28px 25% 25%;
+}
+
+.search-fare-select-color {
+    background-color: rgb(81, 14, 197);
+
+}
+
+.search-fare-head-lable {
+
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+}
+
+.search-fare-head-normal {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(32, 5, 79);
+}
+
+.search-fare-head-bold {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: rgb(32, 5, 79);
+}
+
+.search-fare-details {
+    width: 100%;
+    height: 84.14%;
+    padding: 10%;
+
+}
+
+.search-fare-details-bold {
+    font-size: 1.6rem;
+    color: rgb(32, 5, 79);
+    font-weight: 600;
+    padding-left: 6%;
+
+}
+
+.search-fare-details-normal {
+    font-size: 1.5rem;
+    color: rgb(32, 5, 79);
+    font-weight: 400;
+    padding-left: 17%;
+    padding-top: 1%;
+}
+
+.search-economy-detail-height {
+    height: 1050px;
+}
+
+.search-buisness-detail-height {
+    height: 930px;
+}
+
+.search-fare-details-div {
+    width: 100%;
+    height: 55px;
+    margin-top: 67%;
+    display: none;
+}
+
+.search-fare-detailsbis-div {
+    width: 100%;
+    height: 55px;
+    margin-top: 58%;
+    display: none;
+}
+
+.search-fare-details-continue a {
+    width: 10%;
+    height: 45px;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: rgb(32, 5, 79);
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-fare-details-continue-dis {
+    display: block;
+}
+
+.search-fare-bis-1 {
+    width: 16.6%;
+    height: 740px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 32%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    float: left;
+}
+
+
+.search-fare-bis-2 {
+    width: 16.6%;
+    height: 740px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .2);
+    float: left;
+}
+
+.search-fare-bis-1:hover {
+    box-shadow: 0 0 1.5rem rgb(81, 14, 197);
+    border: 3px solid rgb(81, 14, 197);
+}
+
+.search-fare-bis-2:hover {
+    box-shadow: 0 0 1.5rem rgb(81, 14, 197);
+    border: 3px solid rgb(81, 14, 197);
+}
+
+.bill-main-lable {
+    width: 100%;
+    margin-top: 23px;
+    height: 50px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 750;
+}
+
+.bill-details-div {
+    width: 90%;
+    height: 190px;
+    margin-left: 5%;
+    background-color: #fff;
+    margin-top: 3%;
+    border-radius: 20px;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, .1);
+}
+
+.bill-from-to {
+    width: 95%;
+    height: 40%;
+    margin-left: 2.5%;
+    border-bottom: solid black;
+    padding-top: 15px;
+}
+
+.bill-detail-div-bold {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.bill-detail-div-normal {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.bill-end-time {
+    width: 25%;
+    height: 90%;
+    float: right;
+}
+
+.bill-time {
+    width: 65%;
+    margin: 1.8%;
+    height: 45%;
+    padding-left: 1%;
+    float: left;
+}
+
+.bill-final {
+    width: 90%;
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: right;
+}
+
+.bill-text-bold {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.bill-continue {
+    margin-left: auto;
+    height: 40%;
+    width: 20%;
+    background-color: #340f79;
+    margin-top: 2%;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    cursor: pointer;
+}

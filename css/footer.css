@@ -1,0 +1,71 @@
+root {
+    --white: #fff;
+    --blue: rgb(32, 5, 79);
+    --text-color: #5fa2f4;
+    --border: 1px solid #011d5890;
+    --black: rgb(20, 19, 19);
+    --light-blue: #340f79;
+    --gray: #666;
+    --border-2: 2px solid #0579ec90;
+}
+
+.footer {
+    background-color: rgb(12, 1, 32);
+}
+
+.footer .box-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.2rem;
+    color: var(--white);
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.footer .box-container a,
+.footer .box-container p {
+    font-size: 1.7rem;
+    color: var(--white);
+    padding: 1rem 0;
+    display: block;
+}
+
+.footer .box-container a i,
+.footer .box-container p i {
+    color: var(--white);
+    padding-right: 1rem;
+}
+
+.footer .box-container a:hover {
+    color: var(--white);
+}
+
+.footer .credit {
+    text-align: center;
+    padding-top: 2.5rem;
+    margin-top: 2.5rem;
+    border-top: .2rem solid var(--white);
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.footer .credit span {
+    color: var(--white);
+}
+
+/* footer */
+.social i {
+    color: var(--white);
+    font-size: 20px;
+}
+
+.social i:hover {
+    color: var(--white);
+}

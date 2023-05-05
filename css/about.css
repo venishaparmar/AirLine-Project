@@ -1,0 +1,157 @@
+:root {
+    --box-shadow: 0 .8rem 1rem rgba(0, 0, 0, .6);
+    --white: #fff;
+    --blue: rgb(32, 5, 79);
+    --s-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    --text-color: rgb(20, 19, 19);
+    --border: solid 0.5px white;
+    --black: rgb(20, 19, 19);
+    --light-blue: #340f79;
+    --gray: #666;
+    --stars: #f39c12;
+}
+
+.heading {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--white);
+    text-align: center;
+    min-height: 18vh;
+    margin-bottom: 3%;
+}
+
+.heading h3 {
+    font-size: 5.5rem;
+    color: var(--blue);
+    text-transform: uppercase;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.about .flex {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.about .flex .image {
+    flex: 1 1 40rem;
+}
+
+.about .flex .image img {
+    width: 100%;
+}
+
+.about .flex .content {
+    flex: 1 1 40rem;
+    text-align: center;
+}
+
+.about .flex .content h3 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: var(--black);
+}
+
+.about .flex .content p {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: var(--gray);
+    line-height: 2;
+}
+
+.about .flex:nth-child(2) {
+    margin: 3rem auto;
+    flex-wrap: wrap-reverse;
+}
+
+.reviews .box-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.reviews .box-container .box {
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--white);
+    box-shadow: var(--gray);
+    border: .2rem solid var(--black);
+    border-radius: .5rem;
+}
+
+.reviews .title {
+    margin-top: 2%;
+}
+
+.reviews .box-container .box img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.reviews .box-container .box p {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: var(--gray);
+    line-height: 2;
+}
+
+.reviews .box-container .box .stars {
+    display: inline-block;
+    background: var(--white);
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+    border: .2rem solid var(--black);
+}
+
+.reviews .box-container .box .stars i {
+    color: var(--stars);
+    font-size: 1.7rem;
+    margin: 0 .3rem;
+}
+
+.reviews .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--black);
+    margin-top: 1rem;
+}
+
+.btn {
+    background-color: var(--blue);
+}
+
+.btn {
+    display: inline-block;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    color: var(--white);
+    cursor: pointer;
+    padding: 1rem 3rem;
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var(--blue);
+    transition: 0.8s all ease-in-out;
+    border: .2rem solid var(--blue);
+}
